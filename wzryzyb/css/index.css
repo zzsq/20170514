@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+html{
+    font-size: 100px;
+}
+body{
+    font-size: 0.16rem;
+}
+
+#main{
+    width: 6rem;
+    border: 0.01rem solid gold;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    height: 0.44rem;
+    align-items: center;
+    background-color: darkgrey;
+
+}
+li{
+    padding: 0.08rem 0.15rem;
+}
+
+.active{
+    background-color: orange;
+    border-radius: 0.1rem;
+}
+.swiper-slide{
+    font-size: 0;
+}
+
+.clist{
+    display: flex;
+    justify-content: space-between;
+    border:0.01rem solid black;
+    padding:0 0.1rem;
+}
+
+.loadmore{
+    height: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loadmore>button{
+    width: 2rem;
+    height: 0.4rem;
+    border-radius: 0.3rem;
+    outline: none;
+}
